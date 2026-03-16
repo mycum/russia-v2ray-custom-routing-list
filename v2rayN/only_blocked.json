@@ -87,6 +87,17 @@
     "remarks": "AI Services and Canva"
   },
   {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:telegram"
+    ],
+    "ip": [
+      "geoip:telegram"
+    ],
+    "enabled": true,
+    "remarks": "Telegram"
+  },
+  {
     "port": "0-65535",
     "outboundTag": "direct",
     "enabled": true,
